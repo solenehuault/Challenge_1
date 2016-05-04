@@ -3,3 +3,9 @@
 	background-size: cover;
 	background-position: fixed;
 }
+
+#container {
+    width: 1020px;
+    height: 1400px;
+    margin: auto;
+}
