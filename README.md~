@@ -25,7 +25,7 @@ Ca par contre c'est à prendre en compte à tout prix :
 Image de fond :
 - L'image de fond est le fichier : bg.jpg
 - Elle doit être fixe et occupé le plus de place possible (pensé à la valeur "cover" pour la propriété background-size)
-- note : la maquette a un petit bug sur le fond mais celui-ci n'est pas à reproduire.
+- note : la maquette a un petit bug sur le fond mais celui-ci
 
 Icônes sociales :
 - Utiliser flaticon ou un autre site du genre (le lien est sur le slack)
