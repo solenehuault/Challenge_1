@@ -19,13 +19,14 @@ body {
 .nav li {
 	display: inline;
 	list-style: none;
-	padding: 5px;
 }
 .nav li a {
 	color: white;
 	text-decoration: none;
-	float: left;
 	text-align: center;
+	margin-left: 60px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .nav li a:hover {
