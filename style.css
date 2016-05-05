@@ -1,9 +1,10 @@
 
 /* Le bg */
 body {
+	margin:0;
 	background-image: url("Img/bg.jpg");
 	background-size: cover;
-	background-position: fixed;
+	background-attachment: fixed;
 }
 
 h3 {
@@ -17,30 +18,46 @@ p{
 	font-size: 14px;
 	color:#7a7a7a;
 }
-#header{}
+
 #container {
 	background-color: #FFF;
     width: 1020px;
     height: 1400px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #header {
+	margin: 0;
 	width: 1020px;
-	height: 540px;
 	background-color: black;
 }
 /* Le menu */
-.nav {
+.nav { /* Le menu */
+	text-align: center;
 	width: 1020px;
 	height: 60px;
 }
-
+.nav ul li{
+	display: inline-block;
+}
+.nav ul{
+	margin: 0;
+	padding-top: 16px;
+	padding-left: 0;
+}
 .nav li {
 	display: inline;
 	list-style: none;
 }
-.nav li a {
+
+.nav li a{ /* j'ai simplifié ici et apporter des modifs à cause du margin du body qu'on avais pas imposer*/
+	font-family: Josefin Sans;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+	padding: 0px 16px;
+}
+/*.nav li a {
 	font-family: Josefin Sans;
 	color: white;
 	text-decoration: none;
@@ -49,20 +66,20 @@ p{
 	margin-top: 20px;
 	padding-top: 20px;
 }
-
+*/
 .nav li a:hover {
 	color: #CFA205;
 }
 
 
 #content{
-	margin:0 60px 0 60px;
+	margin:0px 60px 0px 60px;
 	width:900px;
-	height:auto;
+
 }
 .slogan{
-	padding-top:  30px;
-	padding-bottom: 30px;
+	padding-top:  40px;
+	padding-bottom: 40px;
 	width: 900px;
 	height: 90px;
 }
@@ -111,43 +128,46 @@ p{
 
 
 /* Le titre et sous-titre */
-.title {
+.banniere { /*bloc d'ensemble dans lequel le titre et la description resterons emprisonner*/
 	width: 1020px;
 	height: 320px;
 }
+.title{
+	padding: 60px 0px 50px 0;
+}
 .title h1 {
+	margin: 0;
 	color: #CFA205;
 	font-size: 133px;
+	font-weight: 400;/*Pour rendre la police moins épaisse */
 	text-align: center;
 	font-family: Josefin Sans;
 	text-decoration: none;
 }
 
-.title p {
+.description p {
 	color: #CFA205;
 	text-align: center;
 	font-size: 18px;
 }
 
-
 /* La barre sociale */
 .socialnet {
 	width: 1020px;
 	height: 60px;
+	text-align: center;
 	background-color: #E8E8E8;
 }
 
-.socialnet p {
-	text-align: center;
+.menusocial {
+	padding:10px 0px;
 }
-.socialnet a {
+
+.menusocial a {
 	text-decoration: none;
 }
 
-.socialnet a img {
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 13px;
-}
+
+.menusocial a img {
+	margin-left: 5px; /*j'ai remplacé le padding par le margin, pour bien dissocier les liens de chaque icône*/
+	margin-right: 5px;
