@@ -8,6 +8,7 @@ body {
 
 
 #container {
+	background-color: #FFF;
     width: 1020px;
     height: 1400px;
     margin: auto;
@@ -33,10 +34,57 @@ body {
 	margin-left: 60px;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	padding-top: 20px;
 }
 
 .nav li a:hover {
 	color: #CFA205;
+}
+
+
+#content{
+	
+	width:900px;
+	height:auto;
+}
+.slogan{
+	width: 900px;
+	height: 90px;
+}
+
+.slogan p{
+	font-size: 16px;
+	font-family: Bitter;
+	color: #7a7a7a;
+	text-align: center;
+}
+
+.posts{
+	float:none;
+	position: relative;
+	height: 675px;
+	width: 900px;
+}
+
+.post1{
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 260px;
+	float:left;
+}
+
+.post2{
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 260px;
+	float:left;
+}
+
+.post3{
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 260px;
+	float:left;
 }
 
 
