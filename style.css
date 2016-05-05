@@ -1,8 +1,11 @@
+
+/* Le bg */
 body {
 	background-image: url("Img/bg.jpg");
 	background-size: cover;
 	background-position: fixed;
 }
+
 
 #container {
 	background-color: #FFF;
@@ -11,6 +14,8 @@ body {
     margin: auto;
 }
 
+
+/* Le menu */
 .nav {
 	width: 1020px;
 	height: 60px;
@@ -22,6 +27,7 @@ body {
 	list-style: none;
 }
 .nav li a {
+	font-family: Josefin Sans;
 	color: white;
 	text-decoration: none;
 	text-align: center;
@@ -34,6 +40,7 @@ body {
 	color: #CFA205;
 }
 
+<<<<<<< HEAD
 #content{
 	
 	width:900px;
@@ -77,4 +84,22 @@ body {
 	margin-left: 20px;
 	width: 260px;
 	float:left;
+=======
+/* Le titre */
+
+.title {
+	width: 1020px;
+	height: 320px;
+	background-color: black;
+}
+.title h1 {
+	color: #CFA205;
+	font-size: 133px;
+	text-align: center;
+}
+
+.title p {
+	color: #CFA205;
+	text-align: center;
+>>>>>>> 8e63920ada702c62cda7328c04693dbbb9e422d0
 }
