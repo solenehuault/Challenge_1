@@ -1,4 +1,4 @@
-* {
+body {
 	background-image: url("Img/bg.jpg");
 	background-size: cover;
 	background-position: fixed;
@@ -8,4 +8,26 @@
     width: 1020px;
     height: 1400px;
     margin: auto;
+}
+
+.nav {
+	width: 1020px;
+	height: 60px;
+	background-color: black;
+}
+
+.nav li {
+	display: inline;
+	list-style: none;
+	padding: 5px;
+}
+.nav li a {
+	color: white;
+	text-decoration: none;
+	float: left;
+	text-align: center;
+}
+
+.nav li a:hover {
+	color: #CFA205;
 }
