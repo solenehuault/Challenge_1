@@ -39,8 +39,8 @@ body {
 	color: #CFA205;
 }
 
-/* Le titre */
 
+/* Le titre et sous-titre */
 .title {
 	width: 1020px;
 	height: 320px;
@@ -55,4 +55,12 @@ body {
 .title p {
 	color: #CFA205;
 	text-align: center;
+}
+
+
+/* La barre sociale */
+.socialnet {
+	width: 1020px;
+	height: 60px;
+	background-color: #E8E8E8;
 }
