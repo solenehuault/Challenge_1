@@ -9,3 +9,26 @@ body {
     height: 1400px;
     margin: auto;
 }
+
+.nav {
+	width: 1020px;
+	height: 60px;
+	background-color: black;
+}
+
+.nav li {
+	display: inline;
+	list-style: none;
+}
+.nav li a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 60px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.nav li a:hover {
+	color: #CFA205;
+}
