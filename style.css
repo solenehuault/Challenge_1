@@ -7,10 +7,12 @@ body {
 	background-attachment: fixed;
 }
 
-h3 {
+h3 a {
 	text-transform: uppercase;
 	font-family: Bitter;
 	font-size:18px;
+	text-decoration : none;
+	color: black;
 }
 
 p{
