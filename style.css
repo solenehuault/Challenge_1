@@ -1,142 +1,21 @@
-
-/* Le bg */
+/* GENERAL */
 body {
-	margin:0;
+	margin: 0;
 	background-image: url("Img/bg.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-h3 a {
-	text-transform: uppercase;
-	font-family: Bitter;
-	font-size:18px;
-	text-decoration : none;
-	color: black;
-}
-
-p{
-	font-family: Bitter;
-	font-size: 14px;
-	color:#7a7a7a;
-}
-
-#container {
-	background-color: #FFF;
-    width: 1020px;
-    height: 1400px;
-    margin: 0 auto;
-}
-
-#header {
-	margin: 0;
-	width: 1020px;
-	background-color: black;
-}
-/* Le menu */
-.nav { /* Le menu */
-	text-align: center;
-	width: 1020px;
-	height: 60px;
-}
-.nav ul li{
-	display: inline-block;
-}
-.nav ul{
-	margin: 0;
-	padding-top: 16px;
-	padding-left: 0;
-}
-.nav li {
-	display: inline;
-	list-style: none;
-}
-
-.nav li a{ /* j'ai simplifié ici et apporter des modifs à cause du margin du body qu'on avais pas imposer*/
-	font-family: Josefin Sans;
-	font-weight: 400;
-	color: white;
-	text-decoration: none;
-	padding: 0px 16px;
-}
-/*.nav li a {
-	font-family: Josefin Sans;
-	color: white;
-	text-decoration: none;
-	margin-left: 60px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	padding-top: 20px;
-}
-*/
-.nav li a:hover {
-	color: #CFA205;
-}
-
-
-#content{
-	margin:0px 60px 0px 60px;
-	width:900px;
-
-}
-.slogan{
-	padding-top:  40px;
-	padding-bottom: 40px;
-	width: 900px;
-	height: 90px;
-}
-
-.slogan p{
-	font-size: 16px;
-	font-family: Bitter;
-	color: #7a7a7a;
-	text-align: center;
-}
-
-.posts{
-	padding-top: 60px;
-	border-top-width: 2px;
-	border-top-style: solid;
-	border-top-color: #e8e8e8;
-}
-
-.posts{
-	float:none;
-	position: relative;
-	height: 675px;
-	width: 900px;
-}
-
-.post1{
-	margin-right: 30px;
-	margin-left: auto;
-	width: 260px;
-	float:left;
-}
-
-.post2{
-	margin-right: 30px;
-	margin-left: 30px;
-	width: 260px;
-	float:left;
-}
-
-.post3{
-	margin-right: auto;
-	margin-left: 30px;
-	width: 260px;
-	float:left;
-}
-
-
-/* Le titre et sous-titre */
-.banniere { /*bloc d'ensemble dans lequel le titre et la description resterons emprisonner*/
-	width: 1020px;
+/*bloc d'ensemble dans lequel le titre et la description resterons emprisonner*/
+.banniere {
+	width: 100%;
 	height: 320px;
 }
-.title{
+
+.title {
 	padding: 60px 0px 50px 0;
 }
+
 .title h1 {
 	margin: 0;
 	color: #CFA205;
@@ -153,23 +32,133 @@ p{
 	font-size: 18px;
 }
 
-/* La barre sociale */
+h3 a {
+	text-transform: uppercase;
+	font-family: Bitter;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+
+p {
+	font-family: Bitter;
+	font-size: 14px;
+	color: #7a7a7a;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+#container {
+	background-color: #FFF;
+	width: 70%;
+	margin: auto;
+}
+
+#header {
+	margin: 0;
+	width: 100%;
+	background-color: black;
+}
+
+#content {
+	margin: 0;
+	width: 100%;
+}
+
+/* NAVBAR */
+.nav {
+	text-align: center;
+	width: 100%;
+	height: 60px;
+}
+
+.nav ul li {
+	display: inline-block;
+}
+
+.nav ul {
+	margin: 0;
+	padding-top: 16px;
+	padding-left: 0;
+}
+
+.nav li {
+	display: inline;
+	list-style: none;
+}
+
+/* j'ai simplifié ici et apporter des modifs à cause du margin du body qu'on avais pas imposer*/
+.nav li a {
+	font-family: Josefin Sans;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+	padding: 0px 16px;
+}
+
+.nav li a:hover {
+	color: #CFA205;
+}
+
+/* SOCIAL MEDIA */
 .socialnet {
-	width: 1020px;
+	width: 100%;
 	height: 60px;
 	text-align: center;
 	background-color: #E8E8E8;
 }
 
 .menusocial {
-	padding:10px 0px;
+	padding: 10px 0px;
 }
 
 .menusocial a {
 	text-decoration: none;
 }
 
-
 .menusocial a img {
-	margin-left: 5px; /*j'ai remplacé le padding par le margin, pour bien dissocier les liens de chaque icône*/
+/*j'ai remplacé le padding par le margin, pour bien dissocier les liens de chaque icône*/
+	margin-left: 5px;
 	margin-right: 5px;
+}
+
+.menusocial img:hover {
+	opacity: 0.5;
+}
+
+/* SLOGAN */
+.slogan {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 100%;
+	height: 90px;
+}
+
+.slogan p {
+	font-size: 16px;
+	font-family: Bitter;
+	color: #7a7a7a;
+	text-align: center;
+}
+
+/* POSTS */
+.posts {
+	padding-top: 60px;
+	border-top: 2px solid #e8e8e8;
+}
+
+.posts {
+	float: none;
+	position: relative;
+	height: 600px;
+	width: 100%;
+}
+
+.post {
+	margin-right: 30px;
+	margin-left: 30px;
+	width: 25%;
+	float: left;
+}
